@@ -1,0 +1,43 @@
+body {
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background-color: #f2f2ff;
+    color: white;
+    padding: 10px;
+}
+
+nav {
+    background-color: #f2f2ff;
+    margin-top: -20px;
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+    color: ffe6ff;
+    background-color: #e8ffff;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.flex-box {
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly ;
+}
+
+.flex-element {
+    width: 20%;
+    height:300px;
+    background-color: #f7f7ff;
+    margin:5px;
+}
